@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 678px){
+    @font-face {
+        font-family: 'Mazzard';
+        src: url('./fonts/MazzardM-Medium.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    body{
+        background:rgba(20, 46, 53, 1);
+        font-family: 'Mazzard', sans-serif;
+        padding: 0%;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+        align-content: center;
+        margin-top: 25%;
+    }
+    .heading .p1{
+        color: white;
+        text-align: center;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 37.82px;
+        padding-bottom: 10px;
+    }
+    .heading span{
+        color: rgba(249, 193, 98, 1);
+        line-height: 37.82px;
+    }
+    .p2{
+        font-weight: 200;
+        text-align: center;
+        font-size: 16px;
+        color: white;
+        line-height: 18.91px;
+    } 
+    .stars img{
+        position: absolute;
+        top: 35%;
+    }
+    .cloud1{
+        position: absolute;
+        top: 150px;
+        left: 10%;
+    }
+    .cloud2{
+        position: absolute;
+        margin-top: 10px;
+        left: 33%;
+    }
+    .cloud3{
+        position: absolute;
+        margin-top: 15%;
+        left: 63%;
+        z-index: 20;
+    }
+    .mount{
+        position: absolute;
+        top: 80%;
+    }
+    .couples{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 10%;
+        top: 82%;
+        padding-bottom: 20%;
+    }
+}
