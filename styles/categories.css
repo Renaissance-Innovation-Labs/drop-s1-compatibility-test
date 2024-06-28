@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 678px) {
+    @font-face {
+        font-family: 'Mazzard';
+        src: url('../fonts/MazzardM-Medium.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    body{
+        background:rgba(20, 46, 53, 1);
+        font-family: 'Mazzard', sans-serif;
+    }
+    .container{
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+    .p1{
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-right: 23px;
+        font-weight: 600;
+    }
+    .p2{
+        color: white;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        overflow-wrap: break-word;
+        font-family: 'Mazzard', 'Roboto Condensed';
+        font-weight: 400;
+        color: #FFFFFF;
+        padding-top: 10px;
+          
+    }
+    .categories{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+        gap: 3px;
+    }
+    .comm{
+        backdrop-filter: blur(20px);
+        border-radius: 8px;
+        background: #28444B;
+        margin-bottom: 16px;
+        display: flex;
+        flex-direction: row;
+        padding: 16px 0 16.5px 12px;
+        width: 85%;
+        box-sizing: border-box;
+        gap: 6px;
+    }
+    .box{
+        border-radius: 4px;
+        background: #FFFFFF;
+        margin-top: 0.5px;
+        width: 40px;
+        height: 39px;  
+    }
+    .p3{
+        color: white;
+        margin-bottom: 3px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: 'Mazzard', 'Roboto Condensed';
+        font-weight: 500;
+        font-size: 16px;          
+    }
+    .p4{
+        align-self: flex-start;
+        overflow-wrap: break-word;
+        font-family: 'Mazzard', 'Roboto Condensed';
+        font-weight: 400;
+        font-size: 14px;
+        color: #72878C;
+    }
+    .random{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+        gap: 10px;
+    }
+    .p5{
+        margin-bottom: 4px;
+        display: inline-block;
+        align-self: flex-start;
+        overflow-wrap: break-word;
+        font-family: 'Mazzard', 'Roboto Condensed';
+        font-weight: 500;
+        font-size: 12px;
+        color: #FFFFFF;
+        margin-left: 30px;
+    }
+    .feelings{
+        backdrop-filter: blur(20px);
+        border-radius: 8px;
+        background: #28444B;
+        margin-right: 8px;
+        display: flex;
+        flex-direction: column;
+        padding: 6px 0 6px 8px;
+        width: 144px;
+        box-sizing: border-box;
+    }
+    .feelings2{
+        backdrop-filter: blur(20px);
+        border-radius: 8px;
+        background: #28444B;
+        margin-right: 8px;
+        display: flex;
+        flex-direction: column;
+        padding: 6px 0 6px 8px;
+        width: 164px;
+        box-sizing: border-box;
+    }
+    .feelings3{
+        backdrop-filter: blur(20px);
+        border-radius: 8px;
+        background: #28444B;
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        padding: 6px 12px 6px 8px;
+        width: fit-content;
+        box-sizing: border-box;
+          
+    }
+    .p6{
+        margin-bottom: 5px;
+        display: inline-block;
+        align-self: flex-start;
+        overflow-wrap: break-word;
+        font-family: 'Mazzard', 'Roboto Condensed';
+        font-weight: 500;
+        font-size: 14px;
+        color: #FFFFFF;
+    }
+    .p7{
+        align-self: flex-start;
+        overflow-wrap: break-word;
+        font-family: 'Mazzard', 'Roboto Condensed';
+        font-weight: 400;
+        font-size: 10px;
+        color: #72878C;
+    }
+    .up{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        /* margin-right: 20px; */
+    }
+    .down{
+        display: flex;
+        margin-right: 48%;
+    }
+}

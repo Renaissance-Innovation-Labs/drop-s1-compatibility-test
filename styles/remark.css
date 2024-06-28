@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 678px) {
+    @font-face {
+        font-family: 'Mazzard';
+        src: url('../fonts/MazzardM-Medium.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    body{
+        background:white;
+        font-family: 'Mazzard', sans-serif;
+    }
+    .container{
+        padding-top: 15%;
+    }
+    .wrapper{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .p2{
+        color: rgba(85, 85, 85, 1);
+    }
+    .img {
+        margin-top: 20%;
+    }
+    .p3{
+        font-weight: 400;
+    }
+    .link a{
+        font-family: 'Mazzard', sans-serif;
+        color: black;
+    }
+    .link{
+        padding-top: 10%;
+    }
+}

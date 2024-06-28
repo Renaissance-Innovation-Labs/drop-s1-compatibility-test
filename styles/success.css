@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 678px){
+    @font-face {
+        font-family: 'Mazzard';
+        src: url('../fonts/MazzardM-Medium.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    body{
+        background:white;
+        font-family: 'Mazzard', sans-serif;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 55% auto;
+
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container p{
+        margin-top: 10px;
+        text-align: center;
+        overflow-wrap: break-word;
+        font-family: 'Mazzard', 'Roboto Condensed';
+        font-weight: 400;
+        font-size: 15px;
+        color: #555555;
+    }
+    .container button{
+        border-radius: 8px;
+        border: 1px solid #FF647C;
+        background: #FF647C;
+        color: white;
+        display: flex;
+        padding: 15.5px 0 16.5px 0;
+        width: 90%;
+        font-size: 14px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        box-sizing: border-box;
+        font-family: 'Mazzard', 'Roboto Condensed';
+    }
+
+   
+}

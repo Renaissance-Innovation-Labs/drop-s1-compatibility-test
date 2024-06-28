@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/reg.css">
+    <title>ConnectOR</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header"><h1>Welcome</h1></div>
+        <p class="p1">Please fill the required personalized questions</p>
+        <div class="form">
+            <p class="f1">What is your Name?</p>
+            <input type="name" id="name" class="name" placeholder="Enter name here">
+            
+            <p class="f2">What is your Partner’s name?</p>
+            <input type="name" id="name" class="name" placeholder="Enter partner’s here">
+
+            <p class="f3">Who is this person to you?</p>
+            <input type="name" id="name" class="name" placeholder="e.g Wife">
+        </div>
+
+        <div class="options">
+            <p class="f4">Do you often see this person?</p>
+            <form action="action_page.php">
+                <div class="first">
+                    <input type="radio" id="yes" name="option" class="yes" value="Yes">
+                    <label for="yes">Yes, I often see them</label>
+                </div>
+                <div class="second">
+                    <input type="radio" id="no" name="option" class="no" value="No">
+                    <label for="no">No, I see them once a while</label>
+                </div>
+                <div class="third">
+                    <input type="radio" id="noo" name="option" class="no" value="noo">
+                    <label for="noo">No, I have not them before</label>
+                </div>
+            </form>
+        </div>
+        <div class="form">
+            <p class="f5">Please enter their email address to send an invite</p>
+            <input type="email" id="email" class="email" placeholder="Enter partner’s email address">
+        </div>
+        <div class="form"><button><a href="../pages/success.html">Continue</a></button></div>
+    </div>
+</body>
+</html>

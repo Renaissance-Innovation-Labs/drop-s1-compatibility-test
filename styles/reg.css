@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 678px) {
+    @font-face {
+        font-family: 'Mazzard';
+        src: url('../fonts/MazzardM-Medium.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    body{
+        background:white;
+        font-family: 'Mazzard', sans-serif;
+    }
+    .container{
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+    .header h1{
+        text-align: center;
+        padding-bottom: 8px;
+    }
+    .p1{
+        color: rgba(85, 85, 85, 1);
+        text-align: center;
+        font-size: 15px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* column-gap: 30px; */
+        padding-top: 25px;
+    }
+    .form input{
+        border-radius: 4px;
+        border: 0.5px solid #BABABA;
+        padding: 12.5px 14.5px;
+        width: 90%;
+        box-sizing: border-box;
+    }
+    input::placeholder{
+        font-family: 'Mazzard', sans-serif;
+        color: rgba(210, 210, 210, 1);
+    }
+    .f1{
+        position: relative;
+        right:27%;
+        bottom: 5px;
+        font-size: 15px;
+        padding-top: 30px;
+    }
+    .f2{
+        position: relative;
+        right:20%;
+        bottom: 5px;
+        font-size: 15px;
+        padding-top: 30px;
+    }
+    .f3{
+        position: relative;
+        right:22%;
+        bottom: 5px;
+        font-size: 15px;
+        padding-top: 30px;
+    }
+    .options{
+        padding-left: 6%;
+        padding-top: 20px;
+    }
+    .options label{
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+    .f4{
+        padding-bottom: 8px;
+    }
+    .first label{
+        padding-left: 10px;
+    }
+    .second label{
+        padding-left: 10px;
+    }
+    .third label{
+        padding-left: 10px;
+    }
+    .f5{
+        font-size: 15px;
+        position: relative;
+        right:3%;
+        bottom: 5px;
+        padding-top: 30px;
+    }
+    button {
+        border-radius: 8px;
+        border: 1px solid #FF647C;
+        background: #FF647C;
+        color: white;
+        display: flex;
+        padding: 15.5px 0 16.5px 0;
+        width: 90%;
+        font-size: 14px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        box-sizing: border-box;
+        font-family: 'Mazzard', sans-serif;
+        cursor: pointer;
+    }
+    button a{
+        text-decoration: none;
+        color: white;
+    }
+}

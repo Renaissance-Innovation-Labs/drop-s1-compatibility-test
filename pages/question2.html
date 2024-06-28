@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/question1.css">
+    <title>ConnectOR</title>
+</head>
+<body>
+    <div class="container">
+        <div class="no1"><img src="../assets/2.svg" alt=""></div>
+        <div class="p1">
+            How do you prefer to resolve <br>
+            conflicts
+        </div>
+        <div class="questions">
+            <div class="p2">Choose one that applies</div>
+            <div class="question" onclick="handleClick(this)">
+                Calm discussion
+            </div>
+            <div class="question" onclick="handleClick(this)">
+                Taking a break and revisiting later
+            </div>
+            <div class="question" onclick="handleClick(this)">
+                Avoiding the topic
+            </div>
+            <div class="question" onclick="handleClick(this)">
+                Heated Verbal Argument
+            </div>
+            <div class="question" onclick="handleClick(this)">
+                Break Bottle
+            </div>
+        </div>
+        <button><a href="../pages/question3.html">Next Question</a></button>
+    </div>
+    <script>
+        function handleClick(element) {
+          element.classList.toggle('clicked');
+        }
+      </script>
+</body>
+</html>

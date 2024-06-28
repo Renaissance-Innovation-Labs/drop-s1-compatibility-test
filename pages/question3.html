@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/question3.css">
+    <title>ConnectOR</title>
+</head>
+<body>
+    <div class="container">
+        <div class="no1"><img src="../assets/3.svg" alt=""></div>
+        <div class="p1">
+            On a scale of 1 to 5, how would you <br>
+            rate your partner’s listening skills
+        </div>
+        <div class="questions">
+            <div class="text">
+                <div class="p2">Choose one that applies</div>
+                <div class="p3">5 is excellent and 1 is poor</div>
+            </div>
+            <div class="question" onclick="handleClick(this)">
+                5
+            </div>
+            <div class="question" onclick="handleClick(this)">
+                4
+            </div>
+            <div class="question" onclick="handleClick(this)">
+                3
+            </div>
+            <div class="question" onclick="handleClick(this)">
+                2
+            </div>
+            <div class="question" onclick="handleClick(this)">
+                1
+            </div>
+        </div>
+        <button><a href="../pages/remark.html">View Result</a></button>
+    </div>
+    <script>
+        function handleClick(element) {
+          element.classList.toggle('clicked');
+        }
+      </script>
+</body>
+</html>
