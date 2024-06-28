@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/question1.css">
+    <title>ConnectOR</title>
+</head>
+<body>
+    <div class="container">
+        <div class="no1"><img src="../assets/1.svg" alt=""></div>
+        <div class="p1">
+            How often do you feel comfortable expressing your thoughts and <br>
+            feelings to your partner?
+        </div>
+        <div class="questions">
+            <div class="p2">Choose one that applies</div>
+            <div class="question" onclick="handleClick(this)">
+                Very Often
+            </div>
+            <div class="question" onclick="handleClick(this)">
+                Often
+            </div>
+            <div class="question" onclick="handleClick(this)">
+                Sometimes
+            </div>
+            <div class="question" onclick="handleClick(this)">
+                Rarely
+            </div>
+            <div class="question" onclick="handleClick(this)">
+                Never
+            </div>
+        </div>
+        <button><a href="../pages/question2.html">Next Question</a></button>
+    </div>
+    <script>
+        function handleClick(element) {
+          element.classList.toggle('clicked');
+        }
+      </script>
+</body>
+</html>

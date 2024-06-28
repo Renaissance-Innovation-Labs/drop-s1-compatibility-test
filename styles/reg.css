@@ -108,5 +108,10 @@
         align-content: center;
         box-sizing: border-box;
         font-family: 'Mazzard', sans-serif;
+        cursor: pointer;
+    }
+    button a{
+        text-decoration: none;
+        color: white;
     }
 }
