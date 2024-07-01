@@ -90,7 +90,7 @@ intro:"a little introduction to the quiz"
 }
   
 the only thing to be returned is a plain  json without any formatting don't add any other text apart from the JSON
-and NOTE the relationship between the invitee and inviter will always change during this conversation
+and NOTE the relationship between the invitee and inviter will always change during this conversation along with the names
 `;
 
       let retries = 3;
