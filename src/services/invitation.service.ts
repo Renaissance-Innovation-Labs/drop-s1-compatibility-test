@@ -70,26 +70,27 @@ export default class InvitationService {
   async generateQuestion(topic: string, personToInviter: string) {
     {
       const prompt = `
-            Generate a ${personToInviter} relationship quiz questions based on ${topic} along with four choices and 4 questions. The format should be:
-            {
-              questions:[ {
-               question: "Your generated question here",
-               answer: -1, // correct or most healthy answer index
-               inviteeAnswer: null, // answer index chosen by invitee
-               inviterAnswer: null, // answer index chosen by inviter
-               choices: [
-                   { name: "Choice 1" },
-                   { name: "Choice 2" },
-                   { name: "Choice 3" },
-                   { name: "Choice 4" },
-               ],
-           },
-           
-        ],
-     intro:"a little introduction to the quiz"
+      Generate a ${personToInviter} relationship quiz questions based on ${topic} along with four choices and 4 questions. The format should be:
+      {
+        questions:[ {
+         question: "Your generated question here",
+         answer: -1, // correct or most healthy answer index
+         inviteeAnswer: null, // answer index chosen by invitee
+         inviterAnswer: null, // answer index chosen by inviter
+         choices: [
+             { name: "Choice 1" },
+             { name: "Choice 2" },
+             { name: "Choice 3" },
+             { name: "Choice 4" },
+         ],
+     },
+     
+  ],
+intro:"a little introduction to the quiz"
 }
-        
+  
 the only thing to be returned is a plain  json without any formatting don't add any other text apart from the JSON
+and NOTE the relationship between the invitee and inviter will always change during this conversation
 `;
 
       let retries = 3;
