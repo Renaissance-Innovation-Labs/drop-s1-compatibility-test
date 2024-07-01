@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <title>Invitation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+
+        .header {
+            text-align:
+                center;
+            margin-bottom: 20px;
+        }
+
+        .content {
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.8em;
+            color: #777;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: hsl(346.8 77.2% 49.8%);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>You're Invited!</h1>
+        </div>
+        <div class="content">
+            <p>Hi {{invitee}},</p>
+            <p>{{inviter}} has invited you to join a compatibility test</p>
+            <p>you are invited to this test as his / her
+                {{personToInviter}}</p>
+
+            <a href="{{link}}" class="button">Accept invite</a>
+
+            <p>If the button above doesn't work, please copy and paste the
+                following link into your browser:</p>
+            <p><a href="{{link}}">{{link}}</a></p>
+
+            <p>If you this is a wrong mail, please ignore this email.</p>
+            <p>Thank you!</p>
+
+        </div>
+    </div>
+</body>
+
+</html>

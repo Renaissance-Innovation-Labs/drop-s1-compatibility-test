@@ -7,4 +7,9 @@ export const {
   PORT,
   LOG_FORMAT,
   LOG_DIR,
+  MONGODB_URI,
+  ACCESS_TOKEN,
+  MAIL_PASS, MAIL_SERVICE, MAIL_USER,
+  FRONTEND_URL,
+  OPEN_AI_API_KEY
 } = process.env;

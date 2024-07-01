@@ -1,6 +1,6 @@
 import { Router } from "express";
 import TestController from "../controllers/test.controller";
-import { IRoute } from "../interfaces/route.interface";
+import IRoute from "../interfaces/route.interface";
 
 class TestRoute implements IRoute {
     public path: string = "/test"
