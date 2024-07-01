@@ -53,7 +53,7 @@ export default function Welcome() {
   const welcomeRequestMutation = useMutation({
     mutationFn: welcomeMailRequest,
     onSuccess: (data) => {
-      console.log(data)
+      localStorage.clear()
       setHideToast(true)
       navigate("/invite-sent")
       joinQuestionerRoom(data.connectionId)

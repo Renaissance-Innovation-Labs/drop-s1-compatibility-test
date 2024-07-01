@@ -57,7 +57,7 @@ export default function CompatibilityCheck() {
     }
 
     useEffect(() => {
-        if (!questionerSummary) checkCompatibility();
+         checkCompatibility();
     }, []);
 
     return (

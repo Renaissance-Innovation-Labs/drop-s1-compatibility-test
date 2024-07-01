@@ -32,6 +32,7 @@ export default function Invitation() {
     }, [location.search]);
 
     function accept() {
+        localStorage.clear()
         if (queryParams.connectionId) {
             joinQuestionerRoom(queryParams?.connectionId as string)
             answerQuestion(queryParams?.connectionId as string, {
