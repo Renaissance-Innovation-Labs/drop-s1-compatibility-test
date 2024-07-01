@@ -96,13 +96,13 @@ export default function Welcome() {
   }
 
   return (
-    <div className="py-10">
+    <div className="py-10 px-3">
       <div className="text-center p-5">
         <h1 className="font-[900] text-[25px]">Welcome</h1>
         <p>Please fill the required personalized questions</p>
       </div>
 
-      <div className="w-[400px] mx-auto">
+      <div className="max-w-[400px] mx-auto">
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-5">
             <FormField

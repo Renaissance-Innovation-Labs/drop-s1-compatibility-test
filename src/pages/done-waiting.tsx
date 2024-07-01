@@ -11,7 +11,7 @@ export default function DoneWaiting() {
     }
 
     return (
-        <div className="h-screen flex justify-center items-center py-10">
+        <div className="h-screen flex justify-center items-center py-10 px-3">
             <div className="text-center max-w-[400px] ">
                 <h1 className="font-[900] text-[25px]" >Great job!</h1>
                 <p className="text-neutral-600">One more step</p>

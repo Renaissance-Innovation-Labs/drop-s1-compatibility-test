@@ -74,7 +74,7 @@ export default function Questioner() {
         });
     }, [api]);
     return (
-        <div className="py-10">
+        <div className="py-10 px-3">
             <div className="w-full max-w-[400px] mx-auto  column justify-center align-center">
                 <Carousel
                     opts={{

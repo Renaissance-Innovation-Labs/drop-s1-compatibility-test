@@ -61,7 +61,7 @@ export default function CompatibilityCheck() {
     }, []);
 
     return (
-        <div className="min-h-screen h-max flex justify-center items-center py-10">
+        <div className="min-h-screen h-max flex justify-center items-center py-10 px-3">
             <div className=" max-w-[400px] ">
                 <div className="text-center">
                     <h1 className="font-[900] text-[20px] mb-2">

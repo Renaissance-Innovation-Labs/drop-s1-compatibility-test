@@ -15,7 +15,7 @@ export default function SectionIntro() {
     }, [topic, intro, navigate])
 
     return (
-        <div className="h-screen flex justify-center items-center py-10">
+        <div className="h-screen flex justify-center items-center py-10 px-3">
             <div className="text-center max-w-[400px] ">
                 <p className="bg-red-50 text-red-500 px-8 px-3 mb-5 rounded-[50px] w-max mx-auto text-[15px] ">Section 1</p>
                 <h1 className="font-[900] text-[25px] mb-2" >{topic}</h1>

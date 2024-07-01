@@ -4,7 +4,7 @@ import { Button } from "../components/ui/button";
 export default function Done() {
     return (
         <>
-            <div className="h-screen py-10 flex justify-center items-center">
+            <div className="h-screen py-10 flex justify-center items-center px-3">
                 <div className="text-center max-w-[400px] ">
                     <h1 className="font-[900] text-[20px] mb-2">Communication</h1>
                     <p className="text-neutral-600">Curious to know how compatible you are with communication? </p>

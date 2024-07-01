@@ -104,9 +104,9 @@ export default function QuestionSelection() {
             topic: topic,
         });
     }
-
+ 
     return (
-        <div className="min-h-screen bg-[#142E35] h-max py-10 text-[white] h-screen flex justify-center items-center">
+        <div className="min-h-screen bg-[#142E35] h-max py-10 px-3 text-[white]  flex justify-center items-center">
             <div className="max-w-[400px]">
                 <div>
                     <h2 className="font-[900] mb-2">
